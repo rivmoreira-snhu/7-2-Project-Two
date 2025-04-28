@@ -111,11 +111,19 @@ Planned future enhancements include:
 
 ---
 
-## TODO - Questions 
+## Questions 
 
-- How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
-- How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
-- What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+### How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+Throughout Project One and Project Two, I focused on writing modular code that separates concerns, which improves maintainability and readability. For example, the `animalShelter.py` CRUD module provided a reusable interface for interacting with the MongoDB database, keeping database operations isolated from the dashboard logic. This made it easier to connect the dashboard widgets without duplicating code. Working in this way allowed for faster development and easier debugging. In the future, this CRUD module could be reused in other applications that require access to the same database, or adapted for other MongoDB collections with minimal changes.
+
+### How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+I approach problems by breaking them down into smaller, manageable components and planning solutions before coding. For this project, I first understood Grazioso Salvare’s database and dashboard requirements, then mapped out how each dashboard component would interact with the data through the CRUD module. Compared to earlier assignments, this project required more upfront design thinking and a stronger focus on user interaction. In future projects, I will continue to apply this modular and iterative approach, ensuring that databases are structured to support both current and future client needs, and prioritizing scalability and flexibility.
+
+### What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+Computer scientists solve real-world problems through technology by designing systems that manage, analyze, and present information effectively. In this project, the dashboard allows Grazioso Salvare to quickly filter and visualize data, helping them make faster, better-informed decisions about animal training candidates. Work like this matters because it enables organizations to operate more efficiently, reduces manual work, and provides actionable insights that can drive their missions forward.
 
 ---
 
